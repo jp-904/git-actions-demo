@@ -1,0 +1,7 @@
+name: publish and deploy demo
+
+on:
+  push:
+    tags:
+      - 'v*'
+
