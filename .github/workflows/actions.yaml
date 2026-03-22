@@ -13,10 +13,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
 
-      # - name: Build
-      #   uses: actions/setup-node@master
-      # - run: npm ci
-      # - run: npm i --save @fortawesome/fontawesome-svg-core
-      # - run: npm i --save @fortawesome/free-solid-svg-icons
-      # - run: npm i --save @fortawesome/react-fontawesome
-      # - run: npm run build
+      - name: Build
+        uses: actions/setup-node@master
+      - run: npm ci
+      - run: npm i --save @fortawesome/fontawesome-svg-core
+      - run: npm i --save @fortawesome/free-solid-svg-icons
+      - run: npm i --save @fortawesome/react-fontawesome
+      - run: npm run build
